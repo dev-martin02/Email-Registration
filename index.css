@@ -1,0 +1,55 @@
+html,
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+}
+
+/* Section */
+svg {
+  width: 100%;
+}
+section {
+  width: 70%;
+}
+
+input {
+  width: 94%;
+  padding: 10px;
+  border-radius: 5px;
+  border-color: gray;
+  margin-bottom: 10px;
+}
+
+div {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+}
+button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(6, 8, 56);
+  color: white;
+}
+
+#userForm {
+  display: inline-block;
+}
+/* Email */
+
+#validMessage {
+  display: none;
+  color: red;
+}
+
+/* Success Message */
+
+#successMessage {
+  display: flex;
+  flex-direction: column;
+}
